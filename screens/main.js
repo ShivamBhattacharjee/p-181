@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView, Platform, Image, ScrollView, TouchableWithoutFeedbackBase } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView, Platform, Image, ScrollView} from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { Camera } from 'expo-camera';
 import * as Permissions from 'expo-permissions';
@@ -62,13 +62,13 @@ return(
 const styles= StyleSheet.create({
     appName:{
         flex:0.1,
-        backgroundColor:cyan
+        backgroundColor:"cyan"
     },
     cameraSection:{
         flex:0.65,
     },
     actionSection:{
-        backgroundColor:TouchableWithoutFeedbackBase,
+        backgroundColor:"white",
         flex:1
     }
 })
